@@ -21,17 +21,19 @@ public class LogMessage extends HashMap<String, Object> {
 	 */
 	public void setDate(String date) {
 		if (date != null) {
-			DateFormat formatter = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
+			DateFormat formatter = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzzz yyyy");
 			Date myDate;
 			try {
 				myDate = (Date) formatter.parse(date);
 				Calendar cal = Calendar.getInstance();
 				cal.setTime(myDate);
-				this.put("DAY_OF_MONTH", Calendar.DAY_OF_MONTH);
-				this.put("MONTH", Calendar.MONTH);
-				this.put("YEAR", Calendar.YEAR);
-				this.put("HOUR_OF_DAY", Calendar.HOUR_OF_DAY);
-				this.put("MINUTE", Calendar.MINUTE);
+				
+			
+				this.put("DAY_OF_MONTH", cal.get(Calendar.DAY_OF_MONTH));
+				this.put("MONTH", cal.get(Calendar.MONTH));
+				this.put("YEAR", cal.get(Calendar.YEAR));
+				this.put("HOUR_OF_DAY", cal.get(Calendar.HOUR_OF_DAY));
+				this.put("MINUTE", cal.get(Calendar.MINUTE));
 			} catch (ParseException e) {
 				e.printStackTrace();
 			}
