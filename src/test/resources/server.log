@@ -1,0 +1,1000 @@
+2016-09-19 10:00:22,312 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-187) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:22 CEST 2016","ID":"1474272022311","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, experimentId\u003d12888, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:00:22,315 WARN  [org.apache.struts.util.RequestUtils] (default task-152) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:22,315 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-152) (userId mx1793) [proposalId=6202, limit=30, f=, experimentId=12888, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272041897, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:00:22,316 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-152) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:22 CEST 2016","ID":"1474272022315","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, limit\u003d30, f\u003d, experimentId\u003d12888, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272041897, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:00:22,317 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-25) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:22 CEST 2016","ID":"1474272022292","METHOD":"getAnalysisInformationByExperimentId","DURATION":"25","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:22,318 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-164) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:22 CEST 2016","ID":"1474272022307","METHOD":"getCompactAnalysisByExperimentId","DURATION":"11","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:22,327 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-152) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:22 CEST 2016","ID":"1474272022315","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"12","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:22,499 WARN  [org.apache.struts.util.RequestUtils] (default task-184) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:22,583 WARN  [org.apache.struts.util.RequestUtils] (default task-103) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:22,586 WARN  [org.apache.struts.util.RequestUtils] (default task-14) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:22,669 WARN  [org.apache.struts.util.RequestUtils] (default task-130) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:22,783 WARN  [org.apache.struts.util.RequestUtils] (default task-32) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:22,940 WARN  [org.apache.struts.util.RequestUtils] (default task-173) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,019 WARN  [org.apache.struts.util.RequestUtils] (default task-101) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,020 WARN  [org.apache.struts.util.RequestUtils] (default task-77) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,037 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-27) (userId mx1793) storeOrUpdateAutoProcProgramValue
+2016-09-19 10:00:23,042 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-27) (userId mx1793) storeOrUpdateAutoProcProgramValue 1235136
+2016-09-19 10:00:23,049 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-179) (userId mxihr3) storeOrUpdateAutoProcProgramAttachmentValue
+2016-09-19 10:00:23,054 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-179) (userId mxihr3) storeOrUpdateAutoProcProgramAttachmentValue 13031719
+2016-09-19 10:00:23,062 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-78) (userId mx1793) storeOrUpdateAutoProcProgramAttachmentValue
+2016-09-19 10:00:23,067 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-78) (userId mx1793) storeOrUpdateAutoProcProgramAttachmentValue 13031720
+2016-09-19 10:00:23,074 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-85) (userId mx1793) storeOrUpdateAutoProcProgramAttachmentValue
+2016-09-19 10:00:23,079 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-85) (userId mx1793) storeOrUpdateAutoProcProgramAttachmentValue 13031721
+2016-09-19 10:00:23,086 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-157) (userId mx1793) storeOrUpdateAutoProcProgramAttachmentValue
+2016-09-19 10:00:23,092 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-157) (userId mx1793) storeOrUpdateAutoProcProgramAttachmentValue 13031722
+2016-09-19 10:00:23,103 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-55) (userId mx1793) storeOrUpdateAutoProcIntegrationValue
+2016-09-19 10:00:23,123 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-55) (userId mx1793) updateSession
+2016-09-19 10:00:23,123 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-55) (userId mx1793) storeOrUpdateAutoProcIntegrationValue 1369143
+2016-09-19 10:00:23,132 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-26) (userId mxihr3) storeOrUpdateAutoProcValue
+2016-09-19 10:00:23,139 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-26) (userId mxihr3) storeOrUpdateAutoProcValue 1228623
+2016-09-19 10:00:23,141 WARN  [org.apache.struts.util.RequestUtils] (default task-108) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,148 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-4) (userId ) storeOrUpdateAutoProcScalingValue
+2016-09-19 10:00:23,157 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-4) (userId ) updateSession
+2016-09-19 10:00:23,157 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-4) (userId ) storeOrUpdateAutoProcScalingValue 1228634
+2016-09-19 10:00:23,164 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-174) (userId mxihr3) storeOrUpdateAutoProcScalingHasIntValue
+2016-09-19 10:00:23,188 WARN  [org.apache.struts.util.RequestUtils] (default task-51) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,193 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-174) (userId mxihr3) storeOrUpdateAutoProcScalingHasIntValue 1228574
+2016-09-19 10:00:23,195 WARN  [org.apache.struts.util.RequestUtils] (default task-89) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,203 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-65) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue
+2016-09-19 10:00:23,209 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-65) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue 3760933
+2016-09-19 10:00:23,211 WARN  [org.apache.struts.util.RequestUtils] (default task-43) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,219 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-11) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue
+2016-09-19 10:00:23,225 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-11) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue 3760934
+2016-09-19 10:00:23,234 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-83) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue
+2016-09-19 10:00:23,241 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-83) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue 3760935
+2016-09-19 10:00:23,333 WARN  [org.apache.struts.util.RequestUtils] (default task-93) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,334 WARN  [org.apache.struts.util.RequestUtils] (default task-46) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,366 WARN  [org.apache.struts.util.RequestUtils] (default task-171) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,484 WARN  [org.apache.struts.util.RequestUtils] (default task-72) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,533 WARN  [org.apache.struts.util.RequestUtils] (default task-145) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,538 WARN  [org.apache.struts.util.RequestUtils] (default task-163) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,685 WARN  [org.apache.struts.util.RequestUtils] (default task-111) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,730 WARN  [org.apache.struts.util.RequestUtils] (default task-80) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,763 WARN  [org.apache.struts.util.RequestUtils] (default task-190) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,812 WARN  [org.apache.struts.util.RequestUtils] (default task-126) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,929 WARN  [org.apache.struts.util.RequestUtils] (default task-29) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,944 WARN  [org.apache.struts.util.RequestUtils] (default task-66) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,966 WARN  [org.apache.struts.util.RequestUtils] (default task-158) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:23,988 WARN  [org.apache.struts.util.RequestUtils] (default task-23) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:24,011 WARN  [org.apache.struts.util.RequestUtils] (default task-161) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:24,044 WARN  [org.apache.struts.util.RequestUtils] (default task-151) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:24,511 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-22) (userId mxihr3) storeOrUpdateAutoProcProgramValue
+2016-09-19 10:00:24,514 WARN  [org.apache.struts.util.RequestUtils] (default task-117) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:24,515 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-22) (userId mxihr3) storeOrUpdateAutoProcProgramValue 1235137
+2016-09-19 10:00:24,515 WARN  [org.apache.struts.util.RequestUtils] (default task-87) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:24,523 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-69) (userId mxihr3) storeOrUpdateAutoProcProgramAttachmentValue
+2016-09-19 10:00:24,529 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-69) (userId mxihr3) storeOrUpdateAutoProcProgramAttachmentValue 13031723
+2016-09-19 10:00:24,536 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-167) (userId mx1845) storeOrUpdateAutoProcProgramAttachmentValue
+2016-09-19 10:00:24,541 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-167) (userId mx1845) storeOrUpdateAutoProcProgramAttachmentValue 13031724
+2016-09-19 10:00:24,548 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-149) (userId mxihr3) storeOrUpdateAutoProcProgramAttachmentValue
+2016-09-19 10:00:24,553 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-149) (userId mxihr3) storeOrUpdateAutoProcProgramAttachmentValue 13031725
+2016-09-19 10:00:24,560 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-48) (userId mx1793) storeOrUpdateAutoProcProgramAttachmentValue
+2016-09-19 10:00:24,565 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-48) (userId mx1793) storeOrUpdateAutoProcProgramAttachmentValue 13031726
+2016-09-19 10:00:24,575 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-132) (userId mx1793) storeOrUpdateAutoProcIntegrationValue
+2016-09-19 10:00:24,593 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-132) (userId mx1793) updateSession
+2016-09-19 10:00:24,593 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-132) (userId mx1793) storeOrUpdateAutoProcIntegrationValue 1369144
+2016-09-19 10:00:24,602 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-59) (userId mxihr3) storeOrUpdateAutoProcValue
+2016-09-19 10:00:24,608 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-59) (userId mxihr3) storeOrUpdateAutoProcValue 1228624
+2016-09-19 10:00:24,615 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-79) (userId mxihr3) storeOrUpdateAutoProcScalingValue
+2016-09-19 10:00:24,624 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-79) (userId mxihr3) updateSession
+2016-09-19 10:00:24,624 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-79) (userId mxihr3) storeOrUpdateAutoProcScalingValue 1228635
+2016-09-19 10:00:24,631 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-109) (userId mxihr3) storeOrUpdateAutoProcScalingHasIntValue
+2016-09-19 10:00:24,653 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-109) (userId mxihr3) storeOrUpdateAutoProcScalingHasIntValue 1228575
+2016-09-19 10:00:24,665 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-88) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue
+2016-09-19 10:00:24,672 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-88) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue 3760936
+2016-09-19 10:00:24,683 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-123) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue
+2016-09-19 10:00:24,690 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-123) (userId mxihr3) storeOrUpdateAutoProcScalingStatisticValue 3760937
+2016-09-19 10:00:24,700 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-31) (userId mx1793) storeOrUpdateAutoProcScalingStatisticValue
+2016-09-19 10:00:24,707 DEBUG [ispyb.ws.soap.mx.ToolsForAutoprocessingWebService] (default task-31) (userId mx1793) storeOrUpdateAutoProcScalingStatisticValue 3760938
+2016-09-19 10:00:25,262 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-187) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:25 CEST 2016","ID":"1474272022311","METHOD":"getExperiment","DURATION":"2951","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:30,973 WARN  [org.apache.struts.util.RequestUtils] (default task-142) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:30,974 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-142) (userId mxihr3) [proposalId=23, experimentId=12787, reqCode=getAnalysisInformationByExperimentId]
+2016-09-19 10:00:30,974 WARN  [org.apache.struts.util.RequestUtils] (default task-120) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:30,974 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-142) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:30 CEST 2016","ID":"1474272030973","METHOD":"getAnalysisInformationByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, reqCode\u003dgetAnalysisInformationByExperimentId]"}
+2016-09-19 10:00:30,974 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-120) (userId mxihr3) [proposalId=23, experimentId=12787, reqCode=getCompactAnalysisByExperimentId]
+2016-09-19 10:00:30,975 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-120) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:30 CEST 2016","ID":"1474272030974","METHOD":"getCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, reqCode\u003dgetCompactAnalysisByExperimentId]"}
+2016-09-19 10:00:30,982 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-120) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:30 CEST 2016","ID":"1474272030974","METHOD":"getCompactAnalysisByExperimentId","DURATION":"8","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:30,987 WARN  [org.apache.struts.util.RequestUtils] (default task-137) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:30,987 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-137) (userId mxihr3) [proposalId=23, experimentId=12787, scope=MEDIUM, reqCode=getExperimentById]
+2016-09-19 10:00:30,987 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-142) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:30 CEST 2016","ID":"1474272030973","METHOD":"getAnalysisInformationByExperimentId","DURATION":"14","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:30,987 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-137) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:30 CEST 2016","ID":"1474272030987","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:00:31,336 WARN  [org.apache.struts.util.RequestUtils] (default task-13) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:31,337 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-13) (userId mxihr3) [proposalId=23, limit=30, f=, experimentId=12787, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272030976, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:00:31,337 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-13) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:31 CEST 2016","ID":"1474272031337","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, limit\u003d30, f\u003d, experimentId\u003d12787, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272030976, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:00:31,345 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-13) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:31 CEST 2016","ID":"1474272031337","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"8","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:31,602 WARN  [org.apache.struts.util.RequestUtils] (default task-169) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:31,603 WARN  [org.apache.struts.util.RequestUtils] (default task-94) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:31,604 WARN  [org.apache.struts.util.RequestUtils] (default task-147) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:31,605 WARN  [org.apache.struts.util.RequestUtils] (default task-121) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:31,605 WARN  [org.apache.struts.util.RequestUtils] (default task-17) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:33,391 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-137) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:33 CEST 2016","ID":"1474272030987","METHOD":"getExperiment","DURATION":"2404","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:38,641 WARN  [org.apache.struts.util.RequestUtils] (default task-96) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,641 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-96) (userId mxihr3) [proposalId=23, experimentId=12919, reqCode=getCompactAnalysisByExperimentId]
+2016-09-19 10:00:38,641 WARN  [org.apache.struts.util.RequestUtils] (default task-143) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,641 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-96) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:38 CEST 2016","ID":"1474272038641","METHOD":"getCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, reqCode\u003dgetCompactAnalysisByExperimentId]"}
+2016-09-19 10:00:38,642 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-143) (userId mxihr3) [proposalId=23, experimentId=12919, reqCode=getAnalysisInformationByExperimentId]
+2016-09-19 10:00:38,642 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-143) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:38 CEST 2016","ID":"1474272038641","METHOD":"getAnalysisInformationByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, reqCode\u003dgetAnalysisInformationByExperimentId]"}
+2016-09-19 10:00:38,642 WARN  [org.apache.struts.util.RequestUtils] (default task-116) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,642 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-116) (userId mxihr3) [proposalId=23, experimentId=12919, scope=MEDIUM, reqCode=getExperimentById]
+2016-09-19 10:00:38,643 WARN  [org.apache.struts.util.RequestUtils] (default task-99) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,643 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-116) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:38 CEST 2016","ID":"1474272038642","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:00:38,643 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-99) (userId mxihr3) [proposalId=23, limit=30, f=, experimentId=12919, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272039031, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:00:38,643 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-99) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:38 CEST 2016","ID":"1474272038643","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, limit\u003d30, f\u003d, experimentId\u003d12919, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272039031, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:00:38,657 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-96) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:38 CEST 2016","ID":"1474272038641","METHOD":"getCompactAnalysisByExperimentId","DURATION":"16","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:38,659 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-99) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:38 CEST 2016","ID":"1474272038643","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"16","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:38,667 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-143) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:38 CEST 2016","ID":"1474272038641","METHOD":"getAnalysisInformationByExperimentId","DURATION":"26","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:00:38,702 WARN  [org.apache.struts.util.RequestUtils] (default task-156) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,703 WARN  [org.apache.struts.util.RequestUtils] (default task-81) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,704 WARN  [org.apache.struts.util.RequestUtils] (default task-2) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,705 WARN  [org.apache.struts.util.RequestUtils] (default task-76) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,705 WARN  [org.apache.struts.util.RequestUtils] (default task-144) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,728 WARN  [org.apache.struts.util.RequestUtils] (default task-97) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,738 WARN  [org.apache.struts.util.RequestUtils] (default task-5) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,739 WARN  [org.apache.struts.util.RequestUtils] (default task-6) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,741 WARN  [org.apache.struts.util.RequestUtils] (default task-113) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,750 WARN  [org.apache.struts.util.RequestUtils] (default task-71) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,751 WARN  [org.apache.struts.util.RequestUtils] (default task-153) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,760 WARN  [org.apache.struts.util.RequestUtils] (default task-112) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,767 WARN  [org.apache.struts.util.RequestUtils] (default task-54) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,769 WARN  [org.apache.struts.util.RequestUtils] (default task-159) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,781 WARN  [org.apache.struts.util.RequestUtils] (default task-7) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,785 WARN  [org.apache.struts.util.RequestUtils] (default task-9) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,789 WARN  [org.apache.struts.util.RequestUtils] (default task-30) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,798 WARN  [org.apache.struts.util.RequestUtils] (default task-34) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,802 WARN  [org.apache.struts.util.RequestUtils] (default task-140) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,808 WARN  [org.apache.struts.util.RequestUtils] (default task-106) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,812 WARN  [org.apache.struts.util.RequestUtils] (default task-52) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,831 WARN  [org.apache.struts.util.RequestUtils] (default task-57) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,836 WARN  [org.apache.struts.util.RequestUtils] (default task-19) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,841 WARN  [org.apache.struts.util.RequestUtils] (default task-24) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,846 WARN  [org.apache.struts.util.RequestUtils] (default task-95) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,852 WARN  [org.apache.struts.util.RequestUtils] (default task-188) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,866 WARN  [org.apache.struts.util.RequestUtils] (default task-28) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,891 WARN  [org.apache.struts.util.RequestUtils] (default task-75) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,891 WARN  [org.apache.struts.util.RequestUtils] (default task-185) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,897 WARN  [org.apache.struts.util.RequestUtils] (default task-73) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,898 WARN  [org.apache.struts.util.RequestUtils] (default task-1) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,899 WARN  [org.apache.struts.util.RequestUtils] (default task-20) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,918 WARN  [org.apache.struts.util.RequestUtils] (default task-148) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,925 WARN  [org.apache.struts.util.RequestUtils] (default task-39) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,925 WARN  [org.apache.struts.util.RequestUtils] (default task-98) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,930 WARN  [org.apache.struts.util.RequestUtils] (default task-139) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,938 WARN  [org.apache.struts.util.RequestUtils] (default task-47) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,951 WARN  [org.apache.struts.util.RequestUtils] (default task-41) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,952 WARN  [org.apache.struts.util.RequestUtils] (default task-91) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,956 WARN  [org.apache.struts.util.RequestUtils] (default task-155) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,959 WARN  [org.apache.struts.util.RequestUtils] (default task-170) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,964 WARN  [org.apache.struts.util.RequestUtils] (default task-44) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,979 WARN  [org.apache.struts.util.RequestUtils] (default task-186) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,983 WARN  [org.apache.struts.util.RequestUtils] (default task-64) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,995 WARN  [org.apache.struts.util.RequestUtils] (default task-15) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:38,995 WARN  [org.apache.struts.util.RequestUtils] (default task-44) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:39,005 WARN  [org.apache.struts.util.RequestUtils] (default task-90) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:39,014 WARN  [org.apache.struts.util.RequestUtils] (default task-127) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:39,018 WARN  [org.apache.struts.util.RequestUtils] (default task-37) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:39,022 WARN  [org.apache.struts.util.RequestUtils] (default task-128) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:39,031 WARN  [org.apache.struts.util.RequestUtils] (default task-82) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:39,053 WARN  [org.apache.struts.util.RequestUtils] (default task-42) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:39,055 WARN  [org.apache.struts.util.RequestUtils] (default task-16) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:39,062 WARN  [org.apache.struts.util.RequestUtils] (default task-176) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:00:40,970 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-116) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:00:40 CEST 2016","ID":"1474272038642","METHOD":"getExperiment","DURATION":"2328","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:03,767 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-45) (userId mxihr3) storeOrUpdateDataCollectionGroup
+2016-09-19 10:01:03,767 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-45) (userId mxihr3) ...with dataCollectionGroupId = null
+2016-09-19 10:01:03,767 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-45) (userId mxihr3) ...with sampleId = null
+2016-09-19 10:01:03,784 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-45) (userId mxihr3) create DataCollectionGroup : 1566048
+2016-09-19 10:01:03,784 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-45) (userId mxihr3) updateSession
+2016-09-19 10:01:04,281 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-134) (userId mxihr3) findSession : id= 54549
+2016-09-19 10:01:04,290 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-134) (userId mxihr3) findSession : id= 54549 time = 9 ms
+2016-09-19 10:01:04,341 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-63) (userId mxihr3) storeOrUpdateBeamLineSetup
+2016-09-19 10:01:04,345 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-63) (userId mxihr3) BeamLineSetup created 1145943
+2016-09-19 10:01:04,364 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-38) (userId mxihr3) storeOrUpdateSession
+2016-09-19 10:01:04,381 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-38) (userId mxihr3) Session updated 54549
+2016-09-19 10:01:04,397 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-154) (userId mxihr3) findDetectorByParam
+2016-09-19 10:01:04,401 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-154) (userId mxihr3) findDetectorByParam : detectorType= ,detectorManufacturer= MAR ,detectorModel= Mar225 ,detectorMode= Unbinned ,time = 3 ms
+2016-09-19 10:01:04,460 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-50) (userId mxihr3) storeOrUpdateDataCollection
+2016-09-19 10:01:04,460 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-50) (userId mxihr3)  storeOrUpdateDataCollection with gaps null, null, null
+2016-09-19 10:01:04,477 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-50) (userId mxihr3) created DataCollection : 1867179
+2016-09-19 10:01:04,477 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-50) (userId mxihr3) updateSession
+2016-09-19 10:01:05,388 WARN  [org.apache.struts.util.RequestUtils] (default task-181) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,389 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-181) (userId mx1793) [proposalId=6202, limit=30, f=, experimentId=12888, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272084897, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:01:05,389 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-181) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:05 CEST 2016","ID":"1474272065389","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, limit\u003d30, f\u003d, experimentId\u003d12888, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272084897, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:01:05,391 WARN  [org.apache.struts.util.RequestUtils] (default task-122) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,392 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-122) (userId mx1793) [proposalId=6202, experimentId=12888, reqCode=getCompactAnalysisByExperimentId]
+2016-09-19 10:01:05,392 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-122) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:05 CEST 2016","ID":"1474272065392","METHOD":"getCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, experimentId\u003d12888, reqCode\u003dgetCompactAnalysisByExperimentId]"}
+2016-09-19 10:01:05,393 WARN  [org.apache.struts.util.RequestUtils] (default task-68) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,393 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-68) (userId mx1793) [proposalId=6202, experimentId=12888, reqCode=getAnalysisInformationByExperimentId]
+2016-09-19 10:01:05,394 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-68) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:05 CEST 2016","ID":"1474272065393","METHOD":"getAnalysisInformationByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, experimentId\u003d12888, reqCode\u003dgetAnalysisInformationByExperimentId]"}
+2016-09-19 10:01:05,400 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-181) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:05 CEST 2016","ID":"1474272065389","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"11","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:05,403 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-122) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:05 CEST 2016","ID":"1474272065392","METHOD":"getCompactAnalysisByExperimentId","DURATION":"11","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:05,412 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-68) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:05 CEST 2016","ID":"1474272065393","METHOD":"getAnalysisInformationByExperimentId","DURATION":"19","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:05,589 WARN  [org.apache.struts.util.RequestUtils] (default task-135) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,590 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-135) (userId mx1793) [proposalId=6202, experimentId=12888, scope=MEDIUM, reqCode=getExperimentById]
+2016-09-19 10:01:05,590 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-135) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:05 CEST 2016","ID":"1474272065590","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, experimentId\u003d12888, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:01:05,607 WARN  [org.apache.struts.util.RequestUtils] (default task-40) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,648 WARN  [org.apache.struts.util.RequestUtils] (default task-133) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,657 WARN  [org.apache.struts.util.RequestUtils] (default task-114) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,763 WARN  [org.apache.struts.util.RequestUtils] (default task-100) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,881 WARN  [org.apache.struts.util.RequestUtils] (default task-141) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:05,910 WARN  [org.apache.struts.util.RequestUtils] (default task-119) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,072 WARN  [org.apache.struts.util.RequestUtils] (default task-60) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,102 WARN  [org.apache.struts.util.RequestUtils] (default task-180) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,107 WARN  [org.apache.struts.util.RequestUtils] (default task-84) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,181 WARN  [org.apache.struts.util.RequestUtils] (default task-18) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,247 WARN  [org.apache.struts.util.RequestUtils] (default task-36) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,298 WARN  [org.apache.struts.util.RequestUtils] (default task-49) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,298 WARN  [org.apache.struts.util.RequestUtils] (default task-189) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,435 WARN  [org.apache.struts.util.RequestUtils] (default task-74) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,456 WARN  [org.apache.struts.util.RequestUtils] (default task-165) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,462 WARN  [org.apache.struts.util.RequestUtils] (default task-125) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,558 WARN  [org.apache.struts.util.RequestUtils] (default task-162) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,579 WARN  [org.apache.struts.util.RequestUtils] (default task-12) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,677 WARN  [org.apache.struts.util.RequestUtils] (default task-86) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,729 WARN  [org.apache.struts.util.RequestUtils] (default task-3) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,794 WARN  [org.apache.struts.util.RequestUtils] (default task-67) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,795 WARN  [org.apache.struts.util.RequestUtils] (default task-131) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,850 WARN  [org.apache.struts.util.RequestUtils] (default task-138) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,910 WARN  [org.apache.struts.util.RequestUtils] (default task-104) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,978 WARN  [org.apache.struts.util.RequestUtils] (default task-175) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:06,979 WARN  [org.apache.struts.util.RequestUtils] (default task-182) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:07,012 WARN  [org.apache.struts.util.RequestUtils] (default task-61) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:07,099 WARN  [org.apache.struts.util.RequestUtils] (default task-110) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:07,099 WARN  [org.apache.struts.util.RequestUtils] (default task-146) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:07,113 WARN  [org.apache.struts.util.RequestUtils] (default task-136) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:07,700 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-33) (userId mx1793) First Guest access...
+2016-09-19 10:01:07,704 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-33) (userId mx1793) Creating menu for guest...
+2016-09-19 10:01:07,704 INFO  [ispyb.client.common.menu.MenuContext] (default task-33) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:07,924 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-135) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:07 CEST 2016","ID":"1474272065590","METHOD":"getExperiment","DURATION":"2334","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:08,248 DEBUG [ispyb.server.common.services.AuthorisationServiceBean] (default task-130) (userId mx1846) Authorisation : getLoggedUser: context.getCallerPrincipal=mx1846
+2016-09-19 10:01:10,127 DEBUG [ispyb.server.common.services.AuthorisationServiceBean] (default task-76) (userId mx1846) Authorisation : getLoggedUser: context.getCallerPrincipal=mx1846
+2016-09-19 10:01:10,143 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-76) (userId mx1846) LocalContact email: GONCALVES/S* = susana.goncalves-pires@esrf.fr
+2016-09-19 10:01:10,257 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-153) (userId mxihr3) First Guest access...
+2016-09-19 10:01:10,261 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-153) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:01:10,262 INFO  [ispyb.client.common.menu.MenuContext] (default task-153) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:11,860 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-139) (userId mxihr3) storeOrUpdateDataCollectionGroup
+2016-09-19 10:01:11,860 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-139) (userId mxihr3) ...with dataCollectionGroupId = 1566048
+2016-09-19 10:01:11,860 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-139) (userId mxihr3) ...with sampleId = -1
+2016-09-19 10:01:11,879 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-139) (userId mxihr3) update DataCollectionGroup : 1566048
+2016-09-19 10:01:11,879 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-139) (userId mxihr3) updateSession
+2016-09-19 10:01:12,032 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-155) (userId mxihr3) storeOrUpdateDataCollection
+2016-09-19 10:01:12,032 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-155) (userId mxihr3)  storeOrUpdateDataCollection with gaps null, null, null
+2016-09-19 10:01:12,052 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-155) (userId mxihr3) Updated DataCollection : 1867179
+2016-09-19 10:01:12,052 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-155) (userId mxihr3) updateSession
+2016-09-19 10:01:13,140 WARN  [org.apache.struts.util.RequestUtils] (default task-41) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:13,140 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-41) (userId mxihr3) [proposalId=23, experimentId=12787, reqCode=getAnalysisInformationByExperimentId]
+2016-09-19 10:01:13,141 WARN  [org.apache.struts.util.RequestUtils] (default task-91) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:13,141 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-41) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:13 CEST 2016","ID":"1474272073140","METHOD":"getAnalysisInformationByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, reqCode\u003dgetAnalysisInformationByExperimentId]"}
+2016-09-19 10:01:13,141 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-91) (userId mxihr3) [proposalId=23, experimentId=12787, reqCode=getCompactAnalysisByExperimentId]
+2016-09-19 10:01:13,141 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-91) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:13 CEST 2016","ID":"1474272073141","METHOD":"getCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, reqCode\u003dgetCompactAnalysisByExperimentId]"}
+2016-09-19 10:01:13,149 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-91) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:13 CEST 2016","ID":"1474272073141","METHOD":"getCompactAnalysisByExperimentId","DURATION":"7","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:13,153 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-41) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:13 CEST 2016","ID":"1474272073140","METHOD":"getAnalysisInformationByExperimentId","DURATION":"13","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:13,155 WARN  [org.apache.struts.util.RequestUtils] (default task-118) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:13,155 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-118) (userId mxihr3) [proposalId=23, experimentId=12787, scope=MEDIUM, reqCode=getExperimentById]
+2016-09-19 10:01:13,156 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-118) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:13 CEST 2016","ID":"1474272073155","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:01:13,481 WARN  [org.apache.struts.util.RequestUtils] (default task-186) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:13,481 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-186) (userId mxihr3) [proposalId=23, limit=30, f=, experimentId=12787, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272073144, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:01:13,482 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-186) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:13 CEST 2016","ID":"1474272073481","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, limit\u003d30, f\u003d, experimentId\u003d12787, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272073144, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:01:13,489 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-186) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:13 CEST 2016","ID":"1474272073481","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"8","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:13,757 WARN  [org.apache.struts.util.RequestUtils] (default task-128) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:13,758 WARN  [org.apache.struts.util.RequestUtils] (default task-127) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:13,759 WARN  [org.apache.struts.util.RequestUtils] (default task-44) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:13,760 WARN  [org.apache.struts.util.RequestUtils] (default task-15) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:13,761 WARN  [org.apache.struts.util.RequestUtils] (default task-90) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:15,868 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-118) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:15 CEST 2016","ID":"1474272073155","METHOD":"getExperiment","DURATION":"2713","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:18,871 DEBUG [ispyb.ws.soap.mx.ToolsForShippingWebService] (default task-176) (userId mxihr3) findPersonByProposal
+2016-09-19 10:01:18,877 DEBUG [ispyb.ws.soap.mx.ToolsForShippingWebService] (default task-176) (userId mxihr3) findPersonByProposal operator on ID30B
+2016-09-19 10:01:18,896 DEBUG [ispyb.ws.soap.mx.ToolsForShippingWebService] (default task-42) (userId mxihr3) findProposal
+2016-09-19 10:01:18,901 DEBUG [ispyb.ws.soap.mx.ToolsForShippingWebService] (default task-42) (userId mxihr3) findProposal 15
+2016-09-19 10:01:18,912 DEBUG [ispyb.ws.soap.mx.ToolsForShippingWebService] (default task-192) (userId mxihr3) findLaboratoryByProposal opid30b
+2016-09-19 10:01:18,915 DEBUG [ispyb.ws.soap.mx.ToolsForShippingWebService] (default task-192) (userId mxihr3) findLaboratoryByProposal ID30B
+2016-09-19 10:01:18,932 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-116) (userId mxihr3) findSessionsByProposalAndBeamLine : code= opid, number= 30b, beamlineName= ID30B
+2016-09-19 10:01:18,940 INFO  [ispyb.server.common.services.sessions.Session3ServiceBean] (default task-116) (userId mxihr3) findForWSByProposalCodeAndNumber : code= opid, number= 30b, beamlineName= ID30B
+2016-09-19 10:01:18,941 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-116) (userId mxihr3) findSessionsByProposalAndBeamLine : code= opid, number= 30b, beamlineName= ID30B time = 9 ms
+2016-09-19 10:01:18,965 DEBUG [ispyb.ws.soap.mx.ToolsForShippingWebService] (default task-35) (userId mxihr3) findPersonBySessionIdLocalContact
+2016-09-19 10:01:18,996 DEBUG [ispyb.ws.soap.mx.ToolsForShippingWebService] (default task-8) (userId mxihr3) findPersonBySessionIdLocalContact
+2016-09-19 10:01:21,641 WARN  [org.apache.struts.util.RequestUtils] (default task-115) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,641 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-115) (userId mxihr3) [proposalId=23, experimentId=12919, reqCode=getCompactAnalysisByExperimentId]
+2016-09-19 10:01:21,641 WARN  [org.apache.struts.util.RequestUtils] (default task-177) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,641 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-115) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:21 CEST 2016","ID":"1474272081641","METHOD":"getCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, reqCode\u003dgetCompactAnalysisByExperimentId]"}
+2016-09-19 10:01:21,642 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-177) (userId mxihr3) [proposalId=23, experimentId=12919, reqCode=getAnalysisInformationByExperimentId]
+2016-09-19 10:01:21,642 WARN  [org.apache.struts.util.RequestUtils] (default task-107) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,642 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-177) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:21 CEST 2016","ID":"1474272081642","METHOD":"getAnalysisInformationByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, reqCode\u003dgetAnalysisInformationByExperimentId]"}
+2016-09-19 10:01:21,642 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-107) (userId mxihr3) [proposalId=23, experimentId=12919, scope=MEDIUM, reqCode=getExperimentById]
+2016-09-19 10:01:21,643 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-107) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:21 CEST 2016","ID":"1474272081642","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:01:21,643 WARN  [org.apache.struts.util.RequestUtils] (default task-178) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,643 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-178) (userId mxihr3) [proposalId=23, limit=30, f=, experimentId=12919, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272082032, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:01:21,643 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-178) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:21 CEST 2016","ID":"1474272081643","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, limit\u003d30, f\u003d, experimentId\u003d12919, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272082032, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:01:21,658 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-115) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:21 CEST 2016","ID":"1474272081641","METHOD":"getCompactAnalysisByExperimentId","DURATION":"17","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:21,659 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-178) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:21 CEST 2016","ID":"1474272081643","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"16","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:21,667 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-177) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:21 CEST 2016","ID":"1474272081642","METHOD":"getAnalysisInformationByExperimentId","DURATION":"25","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:21,724 WARN  [org.apache.struts.util.RequestUtils] (default task-183) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,724 WARN  [org.apache.struts.util.RequestUtils] (default task-172) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,725 WARN  [org.apache.struts.util.RequestUtils] (default task-134) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,726 WARN  [org.apache.struts.util.RequestUtils] (default task-63) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,727 WARN  [org.apache.struts.util.RequestUtils] (default task-45) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,759 WARN  [org.apache.struts.util.RequestUtils] (default task-38) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,759 WARN  [org.apache.struts.util.RequestUtils] (default task-154) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,760 WARN  [org.apache.struts.util.RequestUtils] (default task-50) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,765 WARN  [org.apache.struts.util.RequestUtils] (default task-166) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,770 WARN  [org.apache.struts.util.RequestUtils] (default task-181) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,785 WARN  [org.apache.struts.util.RequestUtils] (default task-122) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,788 WARN  [org.apache.struts.util.RequestUtils] (default task-68) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,791 WARN  [org.apache.struts.util.RequestUtils] (default task-40) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,795 WARN  [org.apache.struts.util.RequestUtils] (default task-133) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,802 WARN  [org.apache.struts.util.RequestUtils] (default task-114) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,804 WARN  [org.apache.struts.util.RequestUtils] (default task-100) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,814 WARN  [org.apache.struts.util.RequestUtils] (default task-141) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,819 WARN  [org.apache.struts.util.RequestUtils] (default task-119) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,823 WARN  [org.apache.struts.util.RequestUtils] (default task-60) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,829 WARN  [org.apache.struts.util.RequestUtils] (default task-180) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,855 WARN  [org.apache.struts.util.RequestUtils] (default task-84) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,860 WARN  [org.apache.struts.util.RequestUtils] (default task-18) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,866 WARN  [org.apache.struts.util.RequestUtils] (default task-36) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,867 WARN  [org.apache.struts.util.RequestUtils] (default task-49) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,868 WARN  [org.apache.struts.util.RequestUtils] (default task-189) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,903 WARN  [org.apache.struts.util.RequestUtils] (default task-74) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,911 WARN  [org.apache.struts.util.RequestUtils] (default task-165) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,911 WARN  [org.apache.struts.util.RequestUtils] (default task-125) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,915 WARN  [org.apache.struts.util.RequestUtils] (default task-162) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,915 WARN  [org.apache.struts.util.RequestUtils] (default task-12) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,944 WARN  [org.apache.struts.util.RequestUtils] (default task-86) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,944 WARN  [org.apache.struts.util.RequestUtils] (default task-3) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,953 WARN  [org.apache.struts.util.RequestUtils] (default task-131) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,954 WARN  [org.apache.struts.util.RequestUtils] (default task-67) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,959 WARN  [org.apache.struts.util.RequestUtils] (default task-138) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,970 WARN  [org.apache.struts.util.RequestUtils] (default task-104) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,974 WARN  [org.apache.struts.util.RequestUtils] (default task-175) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:21,977 WARN  [org.apache.struts.util.RequestUtils] (default task-182) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,004 WARN  [org.apache.struts.util.RequestUtils] (default task-182) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,006 WARN  [org.apache.struts.util.RequestUtils] (default task-146) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,009 WARN  [org.apache.struts.util.RequestUtils] (default task-110) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,016 WARN  [org.apache.struts.util.RequestUtils] (default task-150) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,017 WARN  [org.apache.struts.util.RequestUtils] (default task-136) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,022 WARN  [org.apache.struts.util.RequestUtils] (default task-33) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,025 WARN  [org.apache.struts.util.RequestUtils] (default task-56) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,030 WARN  [org.apache.struts.util.RequestUtils] (default task-168) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,049 WARN  [org.apache.struts.util.RequestUtils] (default task-135) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,060 WARN  [org.apache.struts.util.RequestUtils] (default task-25) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,063 WARN  [org.apache.struts.util.RequestUtils] (default task-164) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,068 WARN  [org.apache.struts.util.RequestUtils] (default task-152) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,072 WARN  [org.apache.struts.util.RequestUtils] (default task-184) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,089 WARN  [org.apache.struts.util.RequestUtils] (default task-14) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,106 WARN  [org.apache.struts.util.RequestUtils] (default task-103) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:22,108 WARN  [org.apache.struts.util.RequestUtils] (default task-130) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:23,927 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-107) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:23 CEST 2016","ID":"1474272081642","METHOD":"getExperiment","DURATION":"2284","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:25,373 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-173) (userId ) storeOrUpdateDataCollectionGroup
+2016-09-19 10:01:25,373 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-173) (userId ) ...with dataCollectionGroupId = 1566048
+2016-09-19 10:01:25,373 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-173) (userId ) ...with sampleId = -1
+2016-09-19 10:01:25,392 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-173) (userId ) update DataCollectionGroup : 1566048
+2016-09-19 10:01:25,392 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-173) (userId ) updateSession
+2016-09-19 10:01:25,534 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-77) (userId mx1793) storeOrUpdateDataCollection
+2016-09-19 10:01:25,534 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-77) (userId mx1793)  storeOrUpdateDataCollection with gaps null, null, null
+2016-09-19 10:01:25,554 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-77) (userId mx1793) Updated DataCollection : 1867179
+2016-09-19 10:01:25,554 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-77) (userId mx1793) updateSession
+2016-09-19 10:01:25,805 ERROR [io.undertow.request] (default task-27) (userId mx1793) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:25,810 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-101) (userId mx1793) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:25,820 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-101) (userId mx1793) getXDSInfo : dataCollectionId=1867179 time = 10 ms
+2016-09-19 10:01:25,845 ERROR [io.undertow.request] (default task-179) (userId mxihr3) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:25,849 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-78) (userId mx1793) findDataCollection
+2016-09-19 10:01:25,861 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-78) (userId mx1793) findDataCollection found :1867179
+2016-09-19 10:01:26,048 ERROR [io.undertow.request] (default task-85) (userId mx1793) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:26,052 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-157) (userId mx1793) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:26,060 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-157) (userId mx1793) getXDSInfo : dataCollectionId=1867179 time = 8 ms
+2016-09-19 10:01:26,268 ERROR [io.undertow.request] (default task-55) (userId mx1793) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:26,272 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-26) (userId mxihr3) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:26,280 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-26) (userId mxihr3) getXDSInfo : dataCollectionId=1867179 time = 8 ms
+2016-09-19 10:01:26,510 ERROR [io.undertow.request] (default task-4) (userId ) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:26,513 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-108) (userId mx1793) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:26,521 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-108) (userId mx1793) getXDSInfo : dataCollectionId=1867179 time = 8 ms
+2016-09-19 10:01:26,693 ERROR [io.undertow.request] (default task-174) (userId mxihr3) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:26,697 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-89) (userId mx1793) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:26,705 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-89) (userId mx1793) getXDSInfo : dataCollectionId=1867179 time = 8 ms
+2016-09-19 10:01:26,890 ERROR [io.undertow.request] (default task-51) (userId mx1793) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:26,893 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-65) (userId mxihr3) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:26,902 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-65) (userId mxihr3) getXDSInfo : dataCollectionId=1867179 time = 8 ms
+2016-09-19 10:01:27,164 ERROR [io.undertow.request] (default task-11) (userId mxihr3) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:27,167 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-43) (userId mx1793) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:27,175 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-43) (userId mx1793) getXDSInfo : dataCollectionId=1867179 time = 7 ms
+2016-09-19 10:01:27,367 ERROR [io.undertow.request] (default task-124) (userId mxihr3) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:27,371 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-83) (userId mxihr3) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:27,378 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-83) (userId mxihr3) getXDSInfo : dataCollectionId=1867179 time = 7 ms
+2016-09-19 10:01:27,494 WARN  [org.apache.struts.util.RequestUtils] (default task-93) (userId mx1844) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:27,494 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-93) (userId mx1844) [proposalId=7273, reqCode=getExperimentInformationByProposalId]
+2016-09-19 10:01:27,495 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-93) (userId mx1844) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:27 CEST 2016","ID":"1474272087494","METHOD":"getExperimentInformationByProposalId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d7273, reqCode\u003dgetExperimentInformationByProposalId]"}
+2016-09-19 10:01:27,520 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-93) (userId mx1844) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:27 CEST 2016","ID":"1474272087494","METHOD":"getExperimentInformationByProposalId","DURATION":"26","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:29,563 INFO  [ispyb.client.security.LogonAction] (default task-72) (userId mx1845) Logon 
+2016-09-19 10:01:29,567 INFO  [ispyb.client.security.LogonAction] (default task-72) (userId mx1845) LDAP Logon: user = mx1845 (no given name no last name)  
+2016-09-19 10:01:29,590 DEBUG [ispyb.client.security.LogonAction] (default task-72) (userId mx1845) SessionId: y-fx24R3UT02ldPX23WHC4_p
+2016-09-19 10:01:29,601 INFO  [ispyb.client.common.menu.MenuContext] (default task-72) (userId mx1845) Fetching Menu for groupId=1 filtering by proposal type= null
+2016-09-19 10:01:29,605 INFO  [ispyb.client.common.menu.MenuContext] (default task-72) (userId mx1845) Fetching Menu for groupId=1 filtering by proposal type= MX
+2016-09-19 10:01:29,614 INFO  [ispyb.client.security.LogonAction] (default task-72) (userId mx1845) user role is : User
+2016-09-19 10:01:29,615 DEBUG [ispyb.client.security.LogonAction] (default task-72) (userId mx1845) server name is : wwws.esrf.fr
+2016-09-19 10:01:31,902 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-190) (userId mx1845) LocalContact email: DE*SOUSA*MOTA/C* = cristiano.de-sousa-mota@esrf.fr
+2016-09-19 10:01:31,909 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-190) (userId mx1845) LocalContact email: COBESSI/D* = david.cobessi@esrf.fr
+2016-09-19 10:01:31,916 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-190) (userId mx1845) LocalContact email: ZANDER/U* = ulrich.zander@esrf.fr
+2016-09-19 10:01:31,922 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-190) (userId mx1845) LocalContact email: ZUBIETA/C* = chloe.zubieta@esrf.fr
+2016-09-19 10:01:35,483 DEBUG [ispyb.server.common.services.AuthorisationServiceBean] (default task-88) (userId mx1845) Authorisation : getLoggedUser: context.getCallerPrincipal=mx1845
+2016-09-19 10:01:38,335 DEBUG [ispyb.server.common.services.AuthorisationServiceBean] (default task-135) (userId mx1845) Authorisation : getLoggedUser: context.getCallerPrincipal=mx1845
+2016-09-19 10:01:38,349 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-135) (userId mx1845) LocalContact email: ZUBIETA/C* = chloe.zubieta@esrf.fr
+2016-09-19 10:01:44,890 INFO  [ispyb.client.security.LogonAction] (default task-11) (userId mx1851) Logon 
+2016-09-19 10:01:44,896 INFO  [ispyb.client.security.LogonAction] (default task-11) (userId mx1851) LDAP Logon: user = mx1851 (no given name no last name)  
+2016-09-19 10:01:44,918 DEBUG [ispyb.client.security.LogonAction] (default task-11) (userId mx1851) SessionId: 9-mLyRpC77o6Q_rRHY4oQw8k
+2016-09-19 10:01:44,929 INFO  [ispyb.client.common.menu.MenuContext] (default task-11) (userId mx1851) Fetching Menu for groupId=1 filtering by proposal type= null
+2016-09-19 10:01:44,932 INFO  [ispyb.client.security.LogonAction] (default task-11) (userId mx1851) user role is : User
+2016-09-19 10:01:44,933 DEBUG [ispyb.client.security.LogonAction] (default task-11) (userId mx1851) server name is : wwws.esrf.fr
+2016-09-19 10:01:44,944 INFO  [ispyb.client.common.menu.MenuContext] (default task-11) (userId mx1851) Fetching Menu for groupId=1 filtering by proposal type= null
+2016-09-19 10:01:48,294 WARN  [org.apache.struts.util.RequestUtils] (default task-188) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,295 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-188) (userId mx1793) [proposalId=6202, experimentId=12888, reqCode=getAnalysisInformationByExperimentId]
+2016-09-19 10:01:48,295 WARN  [org.apache.struts.util.RequestUtils] (default task-24) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,295 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-188) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:48 CEST 2016","ID":"1474272108294","METHOD":"getAnalysisInformationByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, experimentId\u003d12888, reqCode\u003dgetAnalysisInformationByExperimentId]"}
+2016-09-19 10:01:48,295 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-24) (userId mx1793) [proposalId=6202, experimentId=12888, reqCode=getCompactAnalysisByExperimentId]
+2016-09-19 10:01:48,296 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-24) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:48 CEST 2016","ID":"1474272108295","METHOD":"getCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, experimentId\u003d12888, reqCode\u003dgetCompactAnalysisByExperimentId]"}
+2016-09-19 10:01:48,296 WARN  [org.apache.struts.util.RequestUtils] (default task-185) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,296 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-185) (userId mx1793) [proposalId=6202, experimentId=12888, scope=MEDIUM, reqCode=getExperimentById]
+2016-09-19 10:01:48,296 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-185) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:48 CEST 2016","ID":"1474272108296","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, experimentId\u003d12888, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:01:48,298 WARN  [org.apache.struts.util.RequestUtils] (default task-28) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,298 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-28) (userId mx1793) [proposalId=6202, limit=30, f=, experimentId=12888, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272127898, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:01:48,299 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-28) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:48 CEST 2016","ID":"1474272108298","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d6202, limit\u003d30, f\u003d, experimentId\u003d12888, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272127898, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:01:48,308 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-24) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:48 CEST 2016","ID":"1474272108295","METHOD":"getCompactAnalysisByExperimentId","DURATION":"13","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:48,310 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-28) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:48 CEST 2016","ID":"1474272108298","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"12","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:48,313 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-188) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:48 CEST 2016","ID":"1474272108294","METHOD":"getAnalysisInformationByExperimentId","DURATION":"19","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:48,502 WARN  [org.apache.struts.util.RequestUtils] (default task-139) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,560 WARN  [org.apache.struts.util.RequestUtils] (default task-47) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,564 WARN  [org.apache.struts.util.RequestUtils] (default task-155) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,586 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-170) (userId mx1845) storeOrUpdateDataCollectionGroup
+2016-09-19 10:01:48,586 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-170) (userId mx1845) ...with dataCollectionGroupId = 1566048
+2016-09-19 10:01:48,587 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-170) (userId mx1845) ...with sampleId = -1
+2016-09-19 10:01:48,604 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-170) (userId mx1845) update DataCollectionGroup : 1566048
+2016-09-19 10:01:48,604 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-170) (userId mx1845) updateSession
+2016-09-19 10:01:48,668 WARN  [org.apache.struts.util.RequestUtils] (default task-127) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,674 WARN  [org.apache.struts.util.RequestUtils] (default task-44) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,737 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-90) (userId mxihr3) storeOrUpdateDataCollection
+2016-09-19 10:01:48,738 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-90) (userId mxihr3)  storeOrUpdateDataCollection with gaps null, null, null
+2016-09-19 10:01:48,758 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-90) (userId mxihr3) Updated DataCollection : 1867179
+2016-09-19 10:01:48,758 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-90) (userId mxihr3) updateSession
+2016-09-19 10:01:48,768 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-82) (userId mxihr3) First Guest access...
+2016-09-19 10:01:48,771 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-82) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:01:48,771 INFO  [ispyb.client.common.menu.MenuContext] (default task-82) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:48,839 WARN  [org.apache.struts.util.RequestUtils] (default task-62) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,840 WARN  [org.apache.struts.util.RequestUtils] (default task-178) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:48,894 ERROR [io.undertow.request] (default task-154) (userId mxihr3) Undertow request failed HttpServerExchange{ POST /ispyb/ispyb-ws/ispybWS/ToolsForCollectionWebService}: java.lang.NullPointerException
+
+2016-09-19 10:01:48,899 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-50) (userId mxihr3) getXDSInfo : dataCollectionId=1867179
+2016-09-19 10:01:48,907 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-50) (userId mxihr3) getXDSInfo : dataCollectionId=1867179 time = 8 ms
+2016-09-19 10:01:49,015 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-189) (userId mxihr3) First Guest access...
+2016-09-19 10:01:49,018 WARN  [org.apache.struts.util.RequestUtils] (default task-84) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,018 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-189) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:01:49,019 INFO  [ispyb.client.common.menu.MenuContext] (default task-189) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,019 WARN  [org.apache.struts.util.RequestUtils] (default task-49) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,031 WARN  [org.apache.struts.util.RequestUtils] (default task-125) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,050 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-12) (userId mxihr3) First Guest access...
+2016-09-19 10:01:49,054 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-12) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:01:49,054 INFO  [ispyb.client.common.menu.MenuContext] (default task-12) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,095 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-175) (userId mxihr3) First Guest access...
+2016-09-19 10:01:49,098 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-175) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:01:49,098 INFO  [ispyb.client.common.menu.MenuContext] (default task-175) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,129 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-110) (userId mxihr3) First Guest access...
+2016-09-19 10:01:49,133 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-110) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:01:49,133 INFO  [ispyb.client.common.menu.MenuContext] (default task-110) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,168 WARN  [org.apache.struts.util.RequestUtils] (default task-136) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,177 WARN  [org.apache.struts.util.RequestUtils] (default task-152) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,180 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-164) (userId mxihr3) First Guest access...
+2016-09-19 10:01:49,184 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-164) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:01:49,184 INFO  [ispyb.client.common.menu.MenuContext] (default task-164) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,216 WARN  [org.apache.struts.util.RequestUtils] (default task-32) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,226 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-173) (userId ) First Guest access...
+2016-09-19 10:01:49,229 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-173) (userId ) Creating menu for guest...
+2016-09-19 10:01:49,229 INFO  [ispyb.client.common.menu.MenuContext] (default task-173) (userId ) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,266 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-77) (userId mx1793) First Guest access...
+2016-09-19 10:01:49,269 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-77) (userId mx1793) Creating menu for guest...
+2016-09-19 10:01:49,269 INFO  [ispyb.client.common.menu.MenuContext] (default task-77) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,293 WARN  [org.apache.struts.util.RequestUtils] (default task-27) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,317 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-101) (userId mx1793) First Guest access...
+2016-09-19 10:01:49,321 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-101) (userId mx1793) Creating menu for guest...
+2016-09-19 10:01:49,322 INFO  [ispyb.client.common.menu.MenuContext] (default task-101) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,347 WARN  [org.apache.struts.util.RequestUtils] (default task-179) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,357 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-78) (userId mx1793) First Guest access...
+2016-09-19 10:01:49,360 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-78) (userId mx1793) Creating menu for guest...
+2016-09-19 10:01:49,360 INFO  [ispyb.client.common.menu.MenuContext] (default task-78) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,396 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-85) (userId mx1793) First Guest access...
+2016-09-19 10:01:49,400 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-85) (userId mx1793) Creating menu for guest...
+2016-09-19 10:01:49,400 INFO  [ispyb.client.common.menu.MenuContext] (default task-85) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,407 WARN  [org.apache.struts.util.RequestUtils] (default task-157) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,444 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-55) (userId mx1793) First Guest access...
+2016-09-19 10:01:49,448 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-55) (userId mx1793) Creating menu for guest...
+2016-09-19 10:01:49,448 INFO  [ispyb.client.common.menu.MenuContext] (default task-55) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,482 WARN  [org.apache.struts.util.RequestUtils] (default task-26) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,493 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-4) (userId ) First Guest access...
+2016-09-19 10:01:49,496 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-4) (userId ) Creating menu for guest...
+2016-09-19 10:01:49,496 INFO  [ispyb.client.common.menu.MenuContext] (default task-4) (userId ) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,526 WARN  [org.apache.struts.util.RequestUtils] (default task-108) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,553 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-51) (userId mx1793) First Guest access...
+2016-09-19 10:01:49,556 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-51) (userId mx1793) Creating menu for guest...
+2016-09-19 10:01:49,556 INFO  [ispyb.client.common.menu.MenuContext] (default task-51) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,556 WARN  [org.apache.struts.util.RequestUtils] (default task-174) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,570 WARN  [org.apache.struts.util.RequestUtils] (default task-89) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,620 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-65) (userId mx1845) First Guest access...
+2016-09-19 10:01:49,624 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-65) (userId mx1845) Creating menu for guest...
+2016-09-19 10:01:49,624 INFO  [ispyb.client.common.menu.MenuContext] (default task-65) (userId mx1845) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,675 WARN  [org.apache.struts.util.RequestUtils] (default task-43) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,681 WARN  [org.apache.struts.util.RequestUtils] (default task-124) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,693 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-83) (userId mx1845) First Guest access...
+2016-09-19 10:01:49,694 WARN  [org.apache.struts.util.RequestUtils] (default task-11) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,696 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-83) (userId mx1845) Creating menu for guest...
+2016-09-19 10:01:49,696 INFO  [ispyb.client.common.menu.MenuContext] (default task-83) (userId mx1845) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,799 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-46) (userId mx1845) First Guest access...
+2016-09-19 10:01:49,802 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-46) (userId mx1845) Creating menu for guest...
+2016-09-19 10:01:49,802 WARN  [org.apache.struts.util.RequestUtils] (default task-171) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,802 INFO  [ispyb.client.common.menu.MenuContext] (default task-46) (userId mx1845) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,813 WARN  [org.apache.struts.util.RequestUtils] (default task-93) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,843 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-145) (userId mx1845) First Guest access...
+2016-09-19 10:01:49,846 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-145) (userId mx1845) Creating menu for guest...
+2016-09-19 10:01:49,847 INFO  [ispyb.client.common.menu.MenuContext] (default task-145) (userId mx1845) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,848 WARN  [org.apache.struts.util.RequestUtils] (default task-72) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,857 WARN  [org.apache.struts.util.RequestUtils] (default task-111) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,864 WARN  [org.apache.struts.util.RequestUtils] (default task-163) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,877 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-80) (userId mx1851) First Guest access...
+2016-09-19 10:01:49,880 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-80) (userId mx1851) Creating menu for guest...
+2016-09-19 10:01:49,881 INFO  [ispyb.client.common.menu.MenuContext] (default task-80) (userId mx1851) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,906 WARN  [org.apache.struts.util.RequestUtils] (default task-190) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,916 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-126) (userId mx1793) First Guest access...
+2016-09-19 10:01:49,919 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-126) (userId mx1793) Creating menu for guest...
+2016-09-19 10:01:49,920 INFO  [ispyb.client.common.menu.MenuContext] (default task-126) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:49,932 WARN  [org.apache.struts.util.RequestUtils] (default task-66) (userId mx1793) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:49,951 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-29) (userId mx1845) First Guest access...
+2016-09-19 10:01:49,954 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-29) (userId mx1845) Creating menu for guest...
+2016-09-19 10:01:49,954 INFO  [ispyb.client.common.menu.MenuContext] (default task-29) (userId mx1845) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:01:50,816 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-185) (userId mx1793) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:50 CEST 2016","ID":"1474272108296","METHOD":"getExperiment","DURATION":"2520","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:50,968 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-10) (userId mxihr3) findDataCollectionFromFileLocationAndFileName
+2016-09-19 10:01:51,061 WARN  [org.apache.struts.util.RequestUtils] (default task-120) (userId mx1851) No FormBeanConfig found under 'UserProposalChooseAction'
+2016-09-19 10:01:52,904 WARN  [org.apache.struts.util.RequestUtils] (default task-94) (userId mx1851) No FormBeanConfig found under 'UserProposalChooseAction'
+2016-09-19 10:01:52,904 INFO  [ispyb.client.common.menu.MenuContext] (default task-94) (userId mx1851) Fetching Menu for groupId=1 filtering by proposal type= MX
+2016-09-19 10:01:54,881 DEBUG [ispyb.server.common.services.AuthorisationServiceBean] (default task-121) (userId mx1845) Authorisation : getLoggedUser: context.getCallerPrincipal=mx1845
+2016-09-19 10:01:54,888 DEBUG [ispyb.client.mx.results.ViewResultsAction] (default task-121) (userId mx1845) get image list
+2016-09-19 10:01:54,908 DEBUG [ispyb.client.mx.results.ViewResultsAction] (default task-121) (userId mx1845) get image list done
+2016-09-19 10:01:54,932 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-129) (userId mx1851) LocalContact email: VAN*LAER/B* = bart.van-laer@esrf.fr
+2016-09-19 10:01:54,938 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-129) (userId mx1851) LocalContact email: FLOT/D* = david.flot@esrf.fr
+2016-09-19 10:01:54,944 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-129) (userId mx1851) LocalContact email: ZANDER/U* = ulrich.zander@esrf.fr
+2016-09-19 10:01:55,336 WARN  [org.apache.struts.util.RequestUtils] (default task-160) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:55,337 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-160) (userId mxihr3) [proposalId=23, experimentId=12787, reqCode=getAnalysisInformationByExperimentId]
+2016-09-19 10:01:55,337 WARN  [org.apache.struts.util.RequestUtils] (default task-21) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:55,337 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-160) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:55 CEST 2016","ID":"1474272115337","METHOD":"getAnalysisInformationByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, reqCode\u003dgetAnalysisInformationByExperimentId]"}
+2016-09-19 10:01:55,337 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-21) (userId mxihr3) [proposalId=23, experimentId=12787, reqCode=getCompactAnalysisByExperimentId]
+2016-09-19 10:01:55,338 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-21) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:55 CEST 2016","ID":"1474272115337","METHOD":"getCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, reqCode\u003dgetCompactAnalysisByExperimentId]"}
+2016-09-19 10:01:55,345 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-21) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:55 CEST 2016","ID":"1474272115337","METHOD":"getCompactAnalysisByExperimentId","DURATION":"8","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:55,350 WARN  [org.apache.struts.util.RequestUtils] (default task-105) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:55,350 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-160) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:55 CEST 2016","ID":"1474272115337","METHOD":"getAnalysisInformationByExperimentId","DURATION":"13","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:55,350 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-105) (userId mxihr3) [proposalId=23, experimentId=12787, scope=MEDIUM, reqCode=getExperimentById]
+2016-09-19 10:01:55,351 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-105) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:55 CEST 2016","ID":"1474272115350","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12787, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:01:55,475 WARN  [org.apache.struts.util.RequestUtils] (default task-53) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:55,475 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-53) (userId mxihr3) [proposalId=23, limit=30, f=, experimentId=12787, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272115339, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:01:55,476 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-53) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:55 CEST 2016","ID":"1474272115475","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, limit\u003d30, f\u003d, experimentId\u003d12787, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272115339, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:01:55,483 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-53) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:55 CEST 2016","ID":"1474272115475","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"8","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:55,722 WARN  [org.apache.struts.util.RequestUtils] (default task-97) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:55,723 WARN  [org.apache.struts.util.RequestUtils] (default task-113) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:55,724 WARN  [org.apache.struts.util.RequestUtils] (default task-144) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:55,724 WARN  [org.apache.struts.util.RequestUtils] (default task-76) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:55,725 WARN  [org.apache.struts.util.RequestUtils] (default task-5) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:01:56,125 DEBUG [ispyb.client.mx.results.image.ImageDownloadAction] (default task-52) (userId mx1845) Downloading image: /data/pyarch/id23eh2/mx1845/20160919/RAW_DATA/CC138A/2/ref-CC138a-2_2_0001.thumb.jpeg
+2016-09-19 10:01:56,168 DEBUG [ispyb.client.mx.results.image.ImageDownloadAction] (default task-57) (userId mx1845) Downloading image: /data/pyarch/id23eh2/mx1845/20160919/RAW_DATA/CC138A/2/ref-CC138a-2_2_0002.thumb.jpeg
+2016-09-19 10:01:57,921 DEBUG [ispyb.server.common.services.AuthorisationServiceBean] (default task-24) (userId mx1851) Authorisation : getLoggedUser: context.getCallerPrincipal=mx1851
+2016-09-19 10:01:58,165 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-105) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:01:58 CEST 2016","ID":"1474272115350","METHOD":"getExperiment","DURATION":"2815","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:01:58,634 DEBUG [ispyb.client.mx.results.ViewResultsAction] (default task-90) (userId mx1845) getResultData
+2016-09-19 10:01:58,649 DEBUG [ispyb.client.mx.results.ViewResultsAction] (default task-90) (userId mx1845) ..nbAutoProc false found before rMerge =0
+2016-09-19 10:01:58,649 DEBUG [ispyb.client.mx.results.ViewResultsAction] (default task-90) (userId mx1845) ..nbAutoProc false found=0
+2016-09-19 10:01:58,652 DEBUG [ispyb.client.mx.results.ViewResultsAction] (default task-90) (userId mx1845) ..nbAutoProc true found before rMerge =0
+2016-09-19 10:01:58,652 DEBUG [ispyb.client.mx.results.ViewResultsAction] (default task-90) (userId mx1845) ..nbAutoProc true found=0
+2016-09-19 10:01:59,186 DEBUG [ispyb.client.common.util.FileUtil] (default task-90) (userId mx1845) SyncAndCopyDenzoFiles : Error when trying to Sync: 
+ originalFilePath=/data/visitor/mx1845/id23eh2/20160919/RAW_DATA/CC138A/2/denzo/Results
+archiveFilePath=/data/pyarch/id23eh2/mx1845/20160919/RAW_DATA/CC138A/2/denzo/Results
+2016-09-19 10:01:59,819 DEBUG [ispyb.client.mx.results.ViewResultsAction] (default task-74) (userId mx1845) Check if the Characterisation results index file /data/pyarch/id23eh2/mx1845/20160919/RAW_DATA/CC138A/2/CC138a-2_2_dnafiles/index/index.html exists... 
+2016-09-19 10:02:00,043 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-3) (userId mxihr3) storeOrUpdateDataCollectionGroup
+2016-09-19 10:02:00,043 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-3) (userId mxihr3) ...with dataCollectionGroupId = null
+2016-09-19 10:02:00,043 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-3) (userId mxihr3) ...with sampleId = null
+2016-09-19 10:02:00,056 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-3) (userId mxihr3) create DataCollectionGroup : 1566049
+2016-09-19 10:02:00,062 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-3) (userId mxihr3) updateSession
+2016-09-19 10:02:00,266 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-138) (userId mxihr3) findSession : id= 54546
+2016-09-19 10:02:00,274 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-138) (userId mxihr3) findSession : id= 54546 time = 8 ms
+2016-09-19 10:02:00,301 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-61) (userId mx1793) storeOrUpdateBeamLineSetup
+2016-09-19 10:02:00,305 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-61) (userId mx1793) BeamLineSetup created 1145944
+2016-09-19 10:02:00,333 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-146) (userId mxihr3) storeOrUpdateSession
+2016-09-19 10:02:00,346 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-146) (userId mxihr3) Session updated 54546
+2016-09-19 10:02:00,378 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-33) (userId mxihr3) findDetectorByParam
+2016-09-19 10:02:00,381 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-33) (userId mxihr3) findDetectorByParam : detectorType= ,detectorManufacturer= DECTRIS ,detectorModel= Pilatus3_6M ,detectorMode= Unbinned ,time = 3 ms
+2016-09-19 10:02:00,435 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-56) (userId mxihr3) storeOrUpdateDataCollection
+2016-09-19 10:02:00,435 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-56) (userId mxihr3)  storeOrUpdateDataCollection with gaps null, null, null
+2016-09-19 10:02:00,451 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-56) (userId mxihr3) created DataCollection : 1867180
+2016-09-19 10:02:00,451 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-56) (userId mxihr3) updateSession
+2016-09-19 10:02:01,449 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-124) (userId mx1793) First Guest access...
+2016-09-19 10:02:01,454 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-124) (userId mx1793) Creating menu for guest...
+2016-09-19 10:02:01,454 INFO  [ispyb.client.common.menu.MenuContext] (default task-124) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,510 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-111) (userId mx1793) First Guest access...
+2016-09-19 10:02:01,514 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-111) (userId mx1793) Creating menu for guest...
+2016-09-19 10:02:01,514 INFO  [ispyb.client.common.menu.MenuContext] (default task-111) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,563 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-158) (userId mx1845) First Guest access...
+2016-09-19 10:02:01,566 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-158) (userId mx1845) Creating menu for guest...
+2016-09-19 10:02:01,566 INFO  [ispyb.client.common.menu.MenuContext] (default task-158) (userId mx1845) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,613 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-69) (userId mxihr3) First Guest access...
+2016-09-19 10:02:01,616 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-69) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:01,616 INFO  [ispyb.client.common.menu.MenuContext] (default task-69) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,666 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-132) (userId mx1793) First Guest access...
+2016-09-19 10:02:01,670 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-132) (userId mx1793) Creating menu for guest...
+2016-09-19 10:02:01,670 INFO  [ispyb.client.common.menu.MenuContext] (default task-132) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,720 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-187) (userId mx1793) First Guest access...
+2016-09-19 10:02:01,723 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-187) (userId mx1793) Creating menu for guest...
+2016-09-19 10:02:01,723 INFO  [ispyb.client.common.menu.MenuContext] (default task-187) (userId mx1793) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,818 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-94) (userId mx1851) First Guest access...
+2016-09-19 10:02:01,821 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-94) (userId mx1851) Creating menu for guest...
+2016-09-19 10:02:01,821 INFO  [ispyb.client.common.menu.MenuContext] (default task-94) (userId mx1851) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,866 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-17) (userId mx1851) First Guest access...
+2016-09-19 10:02:01,869 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-17) (userId mx1851) Creating menu for guest...
+2016-09-19 10:02:01,869 INFO  [ispyb.client.common.menu.MenuContext] (default task-17) (userId mx1851) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,916 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-121) (userId mx1845) First Guest access...
+2016-09-19 10:02:01,920 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-121) (userId mx1845) Creating menu for guest...
+2016-09-19 10:02:01,921 INFO  [ispyb.client.common.menu.MenuContext] (default task-121) (userId mx1845) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:01,957 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-129) (userId mx1851) First Guest access...
+2016-09-19 10:02:01,960 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-129) (userId mx1851) Creating menu for guest...
+2016-09-19 10:02:01,960 INFO  [ispyb.client.common.menu.MenuContext] (default task-129) (userId mx1851) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,005 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-137) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,008 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-137) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,008 INFO  [ispyb.client.common.menu.MenuContext] (default task-137) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,049 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-21) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,052 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-21) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,053 INFO  [ispyb.client.common.menu.MenuContext] (default task-21) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,094 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-160) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,098 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-160) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,098 INFO  [ispyb.client.common.menu.MenuContext] (default task-160) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,138 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-2) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,142 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-2) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,142 INFO  [ispyb.client.common.menu.MenuContext] (default task-2) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,189 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-113) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,193 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-113) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,193 INFO  [ispyb.client.common.menu.MenuContext] (default task-113) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,240 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-76) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,243 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-76) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,244 INFO  [ispyb.client.common.menu.MenuContext] (default task-76) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,291 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-5) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,294 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-5) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,294 INFO  [ispyb.client.common.menu.MenuContext] (default task-5) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,341 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-112) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,345 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-112) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,345 INFO  [ispyb.client.common.menu.MenuContext] (default task-112) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,405 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-153) (userId ) First Guest access...
+2016-09-19 10:02:02,408 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-153) (userId ) Creating menu for guest...
+2016-09-19 10:02:02,409 INFO  [ispyb.client.common.menu.MenuContext] (default task-153) (userId ) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,411 DEBUG [ispyb.server.common.services.AuthorisationServiceBean] (default task-71) (userId mx1851) Authorisation : getLoggedUser: context.getCallerPrincipal=mx1851
+2016-09-19 10:02:02,424 DEBUG [ispyb.server.mx.vos.collections.Session3VO] (default task-71) (userId mx1851) LocalContact email: ZANDER/U* = ulrich.zander@esrf.fr
+2016-09-19 10:02:02,460 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-6) (userId bm141095) First Guest access...
+2016-09-19 10:02:02,464 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-6) (userId bm141095) Creating menu for guest...
+2016-09-19 10:02:02,464 INFO  [ispyb.client.common.menu.MenuContext] (default task-6) (userId bm141095) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,518 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-159) (userId mxihr3) First Guest access...
+2016-09-19 10:02:02,522 DEBUG [ispyb.client.security.SpecificActionServlet] (default task-159) (userId mxihr3) Creating menu for guest...
+2016-09-19 10:02:02,522 INFO  [ispyb.client.common.menu.MenuContext] (default task-159) (userId mxihr3) Fetching Menu for groupId=2 filtering by proposal type= null
+2016-09-19 10:02:02,774 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-9) (userId mxihr3) findDataCollection
+2016-09-19 10:02:02,787 DEBUG [ispyb.ws.soap.mx.ToolsForCollectionWebService] (default task-9) (userId mxihr3) findDataCollection found :1867179
+2016-09-19 10:02:03,209 DEBUG [ispyb.ws.soap.mx.ToolsForBLSampleWebService] (default task-73) (userId mxihr3) storeOrUpdateDiffractionPlan
+2016-09-19 10:02:03,216 DEBUG [ispyb.ws.soap.mx.ToolsForBLSampleWebService] (default task-73) (userId mxihr3) storeOrUpdateDiffractionPlan : 582041 time = 7 ms
+2016-09-19 10:02:03,224 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-20) (userId mxihr3) storeOrUpdateScreeningValue
+2016-09-19 10:02:03,243 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-20) (userId mxihr3) storeOrUpdateScreeningValue 376175
+2016-09-19 10:02:03,255 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-1) (userId mxihr3) storeOrUpdateScreeningOutputValue
+2016-09-19 10:02:03,275 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-1) (userId mxihr3) storeOrUpdateScreeningOutputValue 376116
+2016-09-19 10:02:03,285 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-148) (userId mxihr3) storeOrUpdateScreeningOutputLatticeValue
+2016-09-19 10:02:03,308 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-148) (userId mxihr3) storeOrUpdateScreeningOutputLatticeValue 258828
+2016-09-19 10:02:03,317 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-75) (userId mxihr3) storeOrUpdateScreeningStrategyValue
+2016-09-19 10:02:03,339 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-75) (userId mxihr3) storeOrUpdateScreeningStrategyValue 205308
+2016-09-19 10:02:03,348 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-98) (userId mxihr3) storeOrUpdateScreeningStrategyWedgeValue
+2016-09-19 10:02:03,370 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-98) (userId mxihr3) storeOrUpdateScreeningStrategyWedgeValue 200017
+2016-09-19 10:02:03,378 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-39) (userId mxihr3) storeOrUpdateScreeningStrategySubWedgeValue
+2016-09-19 10:02:03,400 DEBUG [ispyb.ws.soap.mx.ToolsForScreeningEDNAWebService] (default task-39) (userId mxihr3) storeOrUpdateScreeningStrategySubWedgeValue 207165
+2016-09-19 10:02:04,167 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) -----------------------
+2016-09-19 10:02:04,167 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) CREATEEXPERIMENT
+2016-09-19 10:02:04,168 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) {"PACKAGE":"BIOSAXS_WS","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124168","METHOD":"createExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:02:04,168 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) -----------------------
+2016-09-19 10:02:04,168 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  createExperiment
+2016-09-19 10:02:04,168 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  code:	 'mx'
+2016-09-19 10:02:04,168 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  number:	 '1844'
+2016-09-19 10:02:04,169 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  samples:	 '[{'plate': '2', 'enable': True, 'macromolecule': '', 'title': 'P2-4:10', 'transmission': 100.0, 'well': '10', 'recuperate': False, 'SEUtemperature': 4.0, 'viscosity': 'Low', 'flow': False, 'comments': 'empty capillary', 'volume': 10, 'buffername': 'bwater', 'code': 'water', 'typen': 0, 'waittime': 0.0, 'concentration': 0.0, 'type': 'Buffer', 'row': 4}, {'plate': '2', 'enable': True, 'macromolecule': 'WATER', 'buffer': '', 'flow': True, 'recuperate': False, 'viscosity': 'Low', 'typen': 1, 'volume': 50, 'buffername': 'bwater', 'code': 'water', 'concentration': 1.0, 'row': 4, 'waittime': 0.0, 'title': 'P2-4:11', 'transmission': 100.0, 'SEUtemperature': 20.0, 'well': '11', 'comments': '[1] water', 'type': 'Sample'}]'
+2016-09-19 10:02:04,169 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  storageTemperature:	 '20.0'
+2016-09-19 10:02:04,169 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  mode:	 'BeforeAndAfter'
+2016-09-19 10:02:04,169 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  extraFlowTime:	 '10'
+2016-09-19 10:02:04,169 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  type:	 'CALIBRATION'
+2016-09-19 10:02:04,170 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  sourceFilePath:	 '/data/pyarch/bm29/testing/mx1844/__ID__/Water.xml'
+2016-09-19 10:02:04,170 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793)  name:	 'Water.xml'
+2016-09-19 10:02:04,170 DEBUG [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) ### [CREATEEXPERIMENT] Execution time was 3 ms.
+2016-09-19 10:02:04,170 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) {"PACKAGE":"BIOSAXS_WS","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124167","METHOD":"createExperiment","DURATION":"3","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:02:04,171 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) -----------------------
+2016-09-19 10:02:04,171 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) CREATEEXPERIMENT
+2016-09-19 10:02:04,171 INFO  [ispyb.ws.soap.saxs.ToolsForAssemblyWebService] (default task-139) (userId mx1793) {"PACKAGE":"BIOSAXS_WS","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124171","METHOD":"createExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"{\"sourceFilePath\":\"/data/pyarch/bm29/testing/mx1844/__ID__/Water.xml\",\"extraFlowTime\":\"10\",\"name\":\"Water.xml\",\"number\":\"1844\",\"code\":\"mx\",\"type\":\"CALIBRATION\",\"storageTemperature\":\"20.0\",\"samples\":\"[{\\u0027plate\\u0027: \\u00272\\u0027, \\u0027enable\\u0027: True, \\u0027macromolecule\\u0027: \\u0027\\u0027, \\u0027title\\u0027: \\u0027P2-4:10\\u0027, \\u0027transmission\\u0027: 100.0, \\u0027well\\u0027: \\u002710\\u0027, \\u0027recuperate\\u0027: False, \\u0027SEUtemperature\\u0027: 4.0, \\u0027viscosity\\u0027: \\u0027Low\\u0027, \\u0027flow\\u0027: False, \\u0027comments\\u0027: \\u0027empty capillary\\u0027, \\u0027volume\\u0027: 10, \\u0027buffername\\u0027: \\u0027bwater\\u0027, \\u0027code\\u0027: \\u0027water\\u0027, \\u0027typen\\u0027: 0, \\u0027waittime\\u0027: 0.0, \\u0027concentration\\u0027: 0.0, \\u0027type\\u0027: \\u0027Buffer\\u0027, \\u0027row\\u0027: 4}, {\\u0027plate\\u0027: \\u00272\\u0027, \\u0027enable\\u0027: True, \\u0027macromolecule\\u0027: \\u0027WATER\\u0027, \\u0027buffer\\u0027: \\u0027\\u0027, \\u0027flow\\u0027: True, \\u0027recuperate\\u0027: False, \\u0027viscosity\\u0027: \\u0027Low\\u0027, \\u0027typen\\u0027: 1, \\u0027volume\\u0027: 50, \\u0027buffername\\u0027: \\u0027bwater\\u0027, \\u0027code\\u0027: \\u0027water\\u0027, \\u0027concentration\\u0027: 1.0, \\u0027row\\u0027: 4, \\u0027waittime\\u0027: 0.0, \\u0027title\\u0027: \\u0027P2-4:11\\u0027, \\u0027transmission\\u0027: 100.0, \\u0027SEUtemperature\\u0027: 20.0, \\u0027well\\u0027: \\u002711\\u0027, \\u0027comments\\u0027: \\u0027[1] water\\u0027, \\u0027type\\u0027: \\u0027Sample\\u0027}]\",\"mode\":\"BeforeAndAfter\"}"}
+2016-09-19 10:02:04,182 INFO  [ispyb.server.common.services.sessions.Session3ServiceBean] (default task-139) (userId mx1793) findForWSByProposalCodeAndNumber : code= MX, number= 1844, beamlineName= BM29
+2016-09-19 10:02:04,185 DEBUG [ispyb.server.common.services.AuthorisationServiceBean] (default task-139) (userId mx1793) Authorisation : getLoggedUser: context.getCallerPrincipal=mx1788
+2016-09-19 10:02:04,199 ERROR [stderr] (default task-139) (userId mx1793) ispyb.server.common.exceptions.AccessDeniedException: Access not authorised to session:ispyb.server.mx.vos.collections.Session3VO@4d8adb8d for user:mx1788
+2016-09-19 10:02:04,200 ERROR [stderr] (default task-139) (userId mx1793) 	at ispyb.server.common.services.AuthorisationServiceBean.checkUserRightToAccessSession(AuthorisationServiceBean.java:97)
+2016-09-19 10:02:04,200 ERROR [stderr] (default task-139) (userId mx1793) 	at sun.reflect.GeneratedMethodAccessor374.invoke(Unknown Source)
+2016-09-19 10:02:04,201 ERROR [stderr] (default task-139) (userId mx1793) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-19 10:02:04,201 ERROR [stderr] (default task-139) (userId mx1793) 	at java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-19 10:02:04,202 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-09-19 10:02:04,202 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,202 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+2016-09-19 10:02:04,203 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,203 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,203 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+2016-09-19 10:02:04,204 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-09-19 10:02:04,204 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-09-19 10:02:04,205 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,205 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,206 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+2016-09-19 10:02:04,206 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,206 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,207 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-09-19 10:02:04,207 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,208 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-09-19 10:02:04,208 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,209 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+2016-09-19 10:02:04,209 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46)
+2016-09-19 10:02:04,209 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-09-19 10:02:04,210 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,210 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-09-19 10:02:04,211 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,211 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-09-19 10:02:04,211 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,212 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-09-19 10:02:04,212 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+2016-09-19 10:02:04,213 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,213 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-09-19 10:02:04,214 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,214 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:251)
+2016-09-19 10:02:04,214 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:342)
+2016-09-19 10:02:04,215 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-09-19 10:02:04,215 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,216 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-09-19 10:02:04,216 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,216 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-09-19 10:02:04,217 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,217 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95)
+2016-09-19 10:02:04,218 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,218 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-09-19 10:02:04,219 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,219 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59)
+2016-09-19 10:02:04,219 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,220 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-09-19 10:02:04,220 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,221 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55)
+2016-09-19 10:02:04,221 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,222 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-09-19 10:02:04,222 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,223 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+2016-09-19 10:02:04,223 ERROR [stderr] (default task-139) (userId mx1793) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:439)
+2016-09-19 10:02:04,223 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-09-19 10:02:04,224 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,224 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+2016-09-19 10:02:04,225 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-09-19 10:02:04,225 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,225 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-09-19 10:02:04,226 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+2016-09-19 10:02:04,226 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:182)
+2016-09-19 10:02:04,227 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,227 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-09-19 10:02:04,227 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:73)
+2016-09-19 10:02:04,228 ERROR [stderr] (default task-139) (userId mx1793) 	at ispyb.server.common.services.AuthorisationServiceLocal$$$view420.checkUserRightToAccessSession(Unknown Source)
+2016-09-19 10:02:04,228 ERROR [stderr] (default task-139) (userId mx1793) 	at ispyb.server.common.services.sessions.Session3ServiceBean.checkChangeRemoveAccess(Session3ServiceBean.java:815)
+2016-09-19 10:02:04,229 ERROR [stderr] (default task-139) (userId mx1793) 	at ispyb.server.common.services.sessions.Session3ServiceBean.findByPk(Session3ServiceBean.java:226)
+2016-09-19 10:02:04,229 ERROR [stderr] (default task-139) (userId mx1793) 	at sun.reflect.GeneratedMethodAccessor375.invoke(Unknown Source)
+2016-09-19 10:02:04,229 ERROR [stderr] (default task-139) (userId mx1793) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-19 10:02:04,230 ERROR [stderr] (default task-139) (userId mx1793) 	at java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-19 10:02:04,230 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-09-19 10:02:04,231 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,231 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+2016-09-19 10:02:04,232 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,232 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,233 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+2016-09-19 10:02:04,233 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-09-19 10:02:04,234 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-09-19 10:02:04,234 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,235 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,235 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+2016-09-19 10:02:04,235 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,236 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,236 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-09-19 10:02:04,237 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,237 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-09-19 10:02:04,238 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,238 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+2016-09-19 10:02:04,238 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46)
+2016-09-19 10:02:04,239 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-09-19 10:02:04,239 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,240 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-09-19 10:02:04,240 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,241 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-09-19 10:02:04,241 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,241 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-09-19 10:02:04,242 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+2016-09-19 10:02:04,242 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,243 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-09-19 10:02:04,243 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,244 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:251)
+2016-09-19 10:02:04,244 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:342)
+2016-09-19 10:02:04,245 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-09-19 10:02:04,246 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,246 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.remote.EJBRemoteTransactionPropagatingInterceptor.processInvocation(EJBRemoteTransactionPropagatingInterceptor.java:79)
+2016-09-19 10:02:04,246 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,247 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-09-19 10:02:04,247 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,248 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-09-19 10:02:04,248 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,248 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95)
+2016-09-19 10:02:04,249 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,249 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-09-19 10:02:04,250 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,250 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59)
+2016-09-19 10:02:04,251 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,251 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-09-19 10:02:04,252 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,252 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55)
+2016-09-19 10:02:04,253 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,253 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-09-19 10:02:04,253 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,254 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+2016-09-19 10:02:04,254 ERROR [stderr] (default task-139) (userId mx1793) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:439)
+2016-09-19 10:02:04,255 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-09-19 10:02:04,255 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,256 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+2016-09-19 10:02:04,256 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-09-19 10:02:04,256 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,257 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-09-19 10:02:04,257 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+2016-09-19 10:02:04,258 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.remote.LocalEjbReceiver.processInvocation(LocalEjbReceiver.java:245)
+2016-09-19 10:02:04,258 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:184)
+2016-09-19 10:02:04,259 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBObjectInterceptor.handleInvocation(EJBObjectInterceptor.java:58)
+2016-09-19 10:02:04,259 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:186)
+2016-09-19 10:02:04,260 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBHomeInterceptor.handleInvocation(EJBHomeInterceptor.java:83)
+2016-09-19 10:02:04,260 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:186)
+2016-09-19 10:02:04,261 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.TransactionInterceptor.handleInvocation(TransactionInterceptor.java:42)
+2016-09-19 10:02:04,261 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:186)
+2016-09-19 10:02:04,262 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.ReceiverInterceptor.handleInvocation(ReceiverInterceptor.java:125)
+2016-09-19 10:02:04,262 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:186)
+2016-09-19 10:02:04,262 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBInvocationHandler.sendRequestWithPossibleRetries(EJBInvocationHandler.java:253)
+2016-09-19 10:02:04,263 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBInvocationHandler.doInvoke(EJBInvocationHandler.java:198)
+2016-09-19 10:02:04,263 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBInvocationHandler.doInvoke(EJBInvocationHandler.java:181)
+2016-09-19 10:02:04,264 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.ejb.client.EJBInvocationHandler.invoke(EJBInvocationHandler.java:144)
+2016-09-19 10:02:04,264 ERROR [stderr] (default task-139) (userId mx1793) 	at com.sun.proxy.$Proxy153.findByPk(Unknown Source)
+2016-09-19 10:02:04,265 ERROR [stderr] (default task-139) (userId mx1793) 	at ispyb.server.biosaxs.services.BiosaxsServices.createExperiment(BiosaxsServices.java:135)
+2016-09-19 10:02:04,265 ERROR [stderr] (default task-139) (userId mx1793) 	at ispyb.ws.soap.saxs.ToolsForAssemblyWebService.createExperiment(ToolsForAssemblyWebService.java:838)
+2016-09-19 10:02:04,265 ERROR [stderr] (default task-139) (userId mx1793) 	at sun.reflect.GeneratedMethodAccessor3224.invoke(Unknown Source)
+2016-09-19 10:02:04,266 ERROR [stderr] (default task-139) (userId mx1793) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-19 10:02:04,266 ERROR [stderr] (default task-139) (userId mx1793) 	at java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-19 10:02:04,267 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+2016-09-19 10:02:04,267 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,267 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+2016-09-19 10:02:04,268 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,268 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,269 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+2016-09-19 10:02:04,269 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82)
+2016-09-19 10:02:04,270 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93)
+2016-09-19 10:02:04,270 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,270 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,271 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+2016-09-19 10:02:04,271 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+2016-09-19 10:02:04,272 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,272 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+2016-09-19 10:02:04,272 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,273 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+2016-09-19 10:02:04,273 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,274 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+2016-09-19 10:02:04,274 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46)
+2016-09-19 10:02:04,275 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83)
+2016-09-19 10:02:04,275 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,275 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+2016-09-19 10:02:04,276 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,276 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+2016-09-19 10:02:04,277 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,277 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-09-19 10:02:04,278 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+2016-09-19 10:02:04,278 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,278 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59)
+2016-09-19 10:02:04,279 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,279 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273)
+2016-09-19 10:02:04,280 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340)
+2016-09-19 10:02:04,280 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239)
+2016-09-19 10:02:04,280 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,281 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+2016-09-19 10:02:04,281 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,282 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43)
+2016-09-19 10:02:04,282 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,283 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.security.AuthorizationInterceptor.processInvocation(AuthorizationInterceptor.java:139)
+2016-09-19 10:02:04,283 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,283 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95)
+2016-09-19 10:02:04,284 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,284 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+2016-09-19 10:02:04,285 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,285 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59)
+2016-09-19 10:02:04,286 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,286 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+2016-09-19 10:02:04,287 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,287 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55)
+2016-09-19 10:02:04,288 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,288 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+2016-09-19 10:02:04,288 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,289 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+2016-09-19 10:02:04,289 ERROR [stderr] (default task-139) (userId mx1793) 	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+2016-09-19 10:02:04,290 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+2016-09-19 10:02:04,290 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,290 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+2016-09-19 10:02:04,291 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+2016-09-19 10:02:04,291 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+2016-09-19 10:02:04,292 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+2016-09-19 10:02:04,292 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+2016-09-19 10:02:04,293 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:130)
+2016-09-19 10:02:04,293 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:175)
+2016-09-19 10:02:04,293 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:104)
+2016-09-19 10:02:04,294 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:237)
+2016-09-19 10:02:04,294 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:69)
+2016-09-19 10:02:04,295 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:146)
+2016-09-19 10:02:04,295 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+2016-09-19 10:02:04,295 ERROR [stderr] (default task-139) (userId mx1793) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+2016-09-19 10:02:04,296 ERROR [stderr] (default task-139) (userId mx1793) 	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+2016-09-19 10:02:04,297 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+2016-09-19 10:02:04,297 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+2016-09-19 10:02:04,297 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+2016-09-19 10:02:04,298 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+2016-09-19 10:02:04,298 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+2016-09-19 10:02:04,298 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+2016-09-19 10:02:04,299 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+2016-09-19 10:02:04,299 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+2016-09-19 10:02:04,300 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+2016-09-19 10:02:04,300 ERROR [stderr] (default task-139) (userId mx1793) 	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+2016-09-19 10:02:04,300 ERROR [stderr] (default task-139) (userId mx1793) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+2016-09-19 10:02:04,301 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+2016-09-19 10:02:04,301 ERROR [stderr] (default task-139) (userId mx1793) 	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+2016-09-19 10:02:04,302 ERROR [stderr] (default task-139) (userId mx1793) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-09-19 10:02:04,302 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+2016-09-19 10:02:04,303 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61)
+2016-09-19 10:02:04,303 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2016-09-19 10:02:04,303 ERROR [stderr] (default task-139) (userId mx1793) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2016-09-19 10:02:04,304 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-09-19 10:02:04,304 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2016-09-19 10:02:04,305 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56)
+2016-09-19 10:02:04,305 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:33)
+2016-09-19 10:02:04,306 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-09-19 10:02:04,306 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51)
+2016-09-19 10:02:04,306 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45)
+2016-09-19 10:02:04,307 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63)
+2016-09-19 10:02:04,307 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56)
+2016-09-19 10:02:04,308 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2016-09-19 10:02:04,308 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70)
+2016-09-19 10:02:04,309 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2016-09-19 10:02:04,309 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-09-19 10:02:04,309 ERROR [stderr] (default task-139) (userId mx1793) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2016-09-19 10:02:04,310 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-09-19 10:02:04,310 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-09-19 10:02:04,311 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261)
+2016-09-19 10:02:04,311 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247)
+2016-09-19 10:02:04,312 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76)
+2016-09-19 10:02:04,312 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166)
+2016-09-19 10:02:04,312 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197)
+2016-09-19 10:02:04,313 ERROR [stderr] (default task-139) (userId mx1793) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759)
+2016-09-19 10:02:04,314 ERROR [stderr] (default task-139) (userId mx1793) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2016-09-19 10:02:04,314 ERROR [stderr] (default task-139) (userId mx1793) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+2016-09-19 10:02:04,314 ERROR [stderr] (default task-139) (userId mx1793) 	at java.lang.Thread.run(Thread.java:744)
+2016-09-19 10:02:04,644 WARN  [org.apache.struts.util.RequestUtils] (default task-170) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:02:04,644 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-170) (userId mxihr3) [proposalId=23, limit=30, f=, experimentId=12919, sort=[{"property":"dataCollectionId","direction":"DESC"}], start=0, page=1, reqCode=getPagingCompactAnalysisByExperimentId, _dc=1474272125037, group=[{"property":"dataCollectionId","direction":"DESC"}], filter=[{"property":null,"value":null}]]
+2016-09-19 10:02:04,645 WARN  [org.apache.struts.util.RequestUtils] (default task-47) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:02:04,645 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-170) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124644","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, limit\u003d30, f\u003d, experimentId\u003d12919, sort\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], start\u003d0, page\u003d1, reqCode\u003dgetPagingCompactAnalysisByExperimentId, _dc\u003d1474272125037, group\u003d[{\"property\":\"dataCollectionId\",\"direction\":\"DESC\"}], filter\u003d[{\"property\":null,\"value\":null}]]"}
+2016-09-19 10:02:04,645 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-47) (userId mxihr3) [proposalId=23, experimentId=12919, reqCode=getCompactAnalysisByExperimentId]
+2016-09-19 10:02:04,645 WARN  [org.apache.struts.util.RequestUtils] (default task-155) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:02:04,645 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-47) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124645","METHOD":"getCompactAnalysisByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, reqCode\u003dgetCompactAnalysisByExperimentId]"}
+2016-09-19 10:02:04,646 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-155) (userId mxihr3) [proposalId=23, experimentId=12919, scope=MEDIUM, reqCode=getExperimentById]
+2016-09-19 10:02:04,646 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-155) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124646","METHOD":"getExperiment","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, scope\u003dMEDIUM, reqCode\u003dgetExperimentById]"}
+2016-09-19 10:02:04,646 WARN  [org.apache.struts.util.RequestUtils] (default task-105) (userId mxihr3) No FormBeanConfig found under 'BiosaxsDataAdapterAction'
+2016-09-19 10:02:04,647 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-105) (userId mxihr3) [proposalId=23, experimentId=12919, reqCode=getAnalysisInformationByExperimentId]
+2016-09-19 10:02:04,647 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-105) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124647","METHOD":"getAnalysisInformationByExperimentId","DURATION":"-1","TYPE":"START","LOGGER":"v2.0","PARAMS":"[proposalId\u003d23, experimentId\u003d12919, reqCode\u003dgetAnalysisInformationByExperimentId]"}
+2016-09-19 10:02:04,662 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-47) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124645","METHOD":"getCompactAnalysisByExperimentId","DURATION":"17","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
+2016-09-19 10:02:04,662 INFO  [ispyb.client.biosaxs.dataAdapter.BiosaxsDataAdapterAction] (default task-170) (userId mxihr3) {"PACKAGE":"BIOSAXS_UI","COMMENTS":"","DATE":"Mon Sep 19 10:02:04 CEST 2016","ID":"1474272124644","METHOD":"getPagingCompactAnalysisByExperimentId","DURATION":"18","TYPE":"END","LOGGER":"v2.0","PARAMS":""}
