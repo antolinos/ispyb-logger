@@ -1,4 +1,6 @@
 /target/
 .classpath
 .project
+.metadata
 .settings
+/src/test/resources

@@ -10,6 +10,7 @@ import java.util.HashMap;
 @SuppressWarnings("serial")
 public class LogMessage extends HashMap<String, Object> {
 
+	
 	public LogMessage() {
 		super();
 	}
@@ -28,6 +29,9 @@ public class LogMessage extends HashMap<String, Object> {
 				Calendar cal = Calendar.getInstance();
 				cal.setTime(myDate);
 				
+				DateFormat formatterTo = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				
+				this.put("jsDate", formatterTo.format(myDate));
 			
 				this.put("DAY_OF_MONTH", cal.get(Calendar.DAY_OF_MONTH));
 				this.put("MONTH", cal.get(Calendar.MONTH));
@@ -41,5 +45,6 @@ public class LogMessage extends HashMap<String, Object> {
 		}
 
 	}
+
 
 }
